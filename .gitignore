@@ -1,0 +1,19 @@
+*.jpeg
+*.png
+# latex ignores
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.idx
+*.ilg
+*.ind
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.synctex
+*.synctex(busy)
+*.bcf
+*.run.xml
+*.fdb_latexmk
