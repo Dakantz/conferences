@@ -418,8 +418,8 @@ Note: CLEF has changed reviews to focus on methodology instead of raw numbers (w
 \end{itemize}
 \subsubsection{Medical Concept Detection + Captioning}
 \begin{itemize}
-    \item Concept detection from images (img2text), evaluation using briefness and correctness 
-    \item Then explain with bbox, evaluated using radiologist professional (no formal eval, Likert-Scale) -- i.e. GradCAM / IG 
+    \item Concept detection from images (img2text), evaluation using briefness and correctness
+    \item Then explain with bbox, evaluated using radiologist professional (no formal eval, Likert-Scale) -- i.e. GradCAM / IG
     \item Maybe next year as task? very interesting!!
 \end{itemize}
 \subsubsection{Visual Question Answering and Synthetic Image Generation for Gastrointestinal Tract}
@@ -460,22 +460,65 @@ Note: CLEF has changed reviews to focus on methodology instead of raw numbers (w
 
 \section{Friday}
 \subsection{ImageCLEF}
-\subsubsection{AUEB NLP Group/Archimedes at ImageCLEFmedical Caption 2025}
+\subsubsection{ImageCLEFmedical}
+\textbf{AUEB NLP Group/Archimedes}
 \begin{itemize}
     \item Class Assignment: Multiple Vote strategy of CNNs with ResNET (Union, Intersection, \dots)
-    \item Captioning: Q-Former with query assignment, Cation Gen + medCLIP scoring (retrieval from generated captions)
-    \item Explainability: assignment based on ChatGPT-drawn boxes on 
+    \item Captioning: Q-Former with query assignment,InstructBLIP, Cation Gen + medCLIP scoring (retrieval from generated captions)
+    \item Explainability: assignment based on ChatGPT-drawn boxes on
 \end{itemize}
-\subsubsection{DS4DH Group at ImageCLEFmedical Caption 2025}
+\textbf{DS4DH Group}
 \begin{itemize}
     \item Concept detection: framed as sequence generation, concepts as tokens (hmmm, CUIs have order; a transformer might be correct) \& condition on images
-    \item 
+    \item Caption: InstructBLIP, RAG-based on image retrieval, cluster-based on topics
 \end{itemize}
+\textbf{UMUTeam: Fine-Tuning a Vision-Language Model for Medical Image Captioning and SapBERT-Based Reranking for Concept Detection}
+\subsubsection{MultimodalReasoning (Answers of visual highschool questions)}
+\textbf{Ayesha Amjad: Visual Question Answering with Structured Data Extraction and Robust Reasoning}
+\begin{itemize}
+    \item Approach: Image Captioning using gemini + reasoning modeling for answer generation
+\end{itemize}
+\textbf{ContextDrift: Evaluating VLMs' Multimodal, Multilingual and Multidomain Reasoning Capabilities via Thinking Budget Variations and Textual Augmentation}
+\begin{itemize}
+    \item Similar Approach, but visual model and prompt design
+    \item A lot of ablation studies\footnote{\url{https://www.dei.unipd.it/~faggioli/temp/clef2025/paper_194.pdf}}
+\end{itemize}
+\textbf{MSA: Multilingual Multimodal Reasoning with Ensemble Vision-Language Models}
+\begin{itemize}
+    \item OCR + vLLM
+    \item + Ensembling
+\end{itemize}
+
+\subsubsection{MEDIQA-MAGIC}
+\textbf{DS@GT}
+\begin{itemize}
+    \item Emulate Collaborative Reasoning of Physicians
+    \item 7 vLLM + orchestrators, combination of reasoning \dots
+\end{itemize}
+\textbf{IReL, IIT(BHU): Tackling Multimodal Dermatology with CLIPSeg-Based Segmentation and BERT-Swin Question Answering}
+\subsubsection{MEDVQA}
+\textbf{Gaurav Parajuli (JKU, Linz): Querying GI Endoscopy}
+\begin{itemize}
+    \item LoRA finetuned vLLM
+\end{itemize}
+\textbf{Sujata Gaihre}
+\begin{itemize}
+    \item Similar approach
+\end{itemize}
+\textbf{Krishna Tewari}
+\begin{itemize}
+    \item Data Augmentation/Preprocessing!
+\end{itemize}
+\subsection{Closing Ceremony}
+\begin{itemize}
+    \item New CLEF challenges ;)
+\end{itemize}
+
 % \subsubsection{Spatially Grounded Explanations in Vision-Language Models for Document Visual Question Answering}
 % \begin{itemize}
 %     \item 
 % \end{itemize}
 \section{Posters}
-\include{posters}
+\include{posters} 
 
 \end{document}
