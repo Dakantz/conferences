@@ -8,8 +8,9 @@ I also loosely connect all posters using different search engines to their DOIs/
 
 ## Conferences
 
-| Year | Conference Name        | Location      | Notes/Links           |
+| Year | Conference Name       | Location       | Notes/Links           |
 |------|-----------------------|----------------|-----------------------|
+| 2025 | CLEF                  | Madrid         | [Notes](2025-clef/report.pdf) |
 | 2025 | SIGIR                 | Padua          | [Notes](2025-sigir/report.pdf) |
 | 2025 | ICASSP                | Hyderabad      | [Notes](2025-icassp/report.pdf) |
-| 2024 | ICML                  | Vienna         | [Notes](2024-icml/report.pdf)  |
+| 2024 | ICML                  | Vienna         | [Notes](2024-icml/icml_report.pdf)  |
