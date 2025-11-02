@@ -1,0 +1,67 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+
+\usepackage{hyperref}
+
+\usepackage{tabularray}
+\usepackage{graphicx}
+
+\usepackage[table]{xcolor}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{url}
+\usepackage[style=ieee,backend=biber]{biblatex} % 
+\addbibresource{references.bib}
+\usepackage{isomath}
+\usepackage{amsmath}
+\usepackage{newtxmath}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{bm}
+\usepackage{ stmaryrd }
+\usepackage{enumitem}
+\setlist{
+ itemsep=0.1em,
+ parsep=0.1em
+} % or \setlist{noitemsep} to leave space around whole list
+
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=25mm,
+    bottom=25mm,
+    }
+    
+\title{IEEE VIS '25 notes and interesting posters}
+\author{Benedikt Kantz}
+\date{Nov 02-07 2025}
+\begin{document}
+
+\maketitle
+\tableofcontents
+\section{Workshshops}
+\subsection{alt.VIS (Sunday Morning)}
+\subsubsection{Data Melodification FM}
+\subsubsection{Visualization Was Here}
+\subsubsection{The Fuzzy Front Ends}
+\ldots
+\subsection{BioMedVIS (Sunday Morning): Redesign Challenge Introduction}
+\begin{itemize}
+    \item Spectral analysis of 31P-MRS output of 9 individuals
+    \item Dashboards to show spectra/peaks with rations of metabolic ranges
+    \item  
+\end{itemize}
+
+
+\section{Posters}
+\include{posters} 
+
+\printbibliography
+
+\end{document}
