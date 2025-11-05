@@ -1,5 +1,5 @@
 *.jpeg
-*.png
+**/posters/**/*
 # latex ignores
 *.aux
 *.bbl
